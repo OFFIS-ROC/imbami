@@ -1,4 +1,4 @@
-# Imbaqu
+# Imbami
 This package called "imbami" (Imbalance Mitigation) implements the methods for the mitigation of data imbalance as described in the corresponding article "Model-agnostic Mitigation Strategies of Data Imbalance for Regression". The article is available [as a pre print on Arxiv](https://arxiv.org/abs/2506.01486).
 
 The goal of imbami is to provide the scientific community with a set of relevance functions and mitigation methods to tackle problem of data imbalance. The following relevance functions and mitigation methods are included: 
