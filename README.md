@@ -38,7 +38,6 @@ KDEpy=1.1.11
 Other versions may also work, but have not been tested.
 
 ## Usage
-# ToDo!
 ```python
 # mIR continuous
 mir = imbaqu.mean_imbalance_ratio(data['num1'])
