@@ -13,11 +13,12 @@ The goal of imbami is to provide the scientific community with a set of relevanc
 
 If used, please cite:
 ```
-@article{imbami,
-  author       = {Wibbeke, Jelke and Rohjans, Sebastian and Rauh, Andreas},
-  title        = {Model-agnostic Mitigation Strategies of Data Imbalance for Regression},
-  year         = {XXX},
-  publisher    = {}
+@misc{wibbeke_model-agnostic_2025,
+	title = {Model-agnostic {Mitigation} {Strategies} of {Data} {Imbalance} for {Regression}},
+	url = {https://arxiv.org/abs/2506.01486},
+	author = {Wibbeke, Jelke and Rohjans, Sebastian and Rauh, Andreas},
+	year = {2025},
+	note = {\_eprint: 2506.01486},
 }
 ```
 
