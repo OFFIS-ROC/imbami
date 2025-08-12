@@ -38,13 +38,4 @@ KDEpy=1.1.11
 Other versions may also work, but have not been tested.
 
 ## Usage
-```python
-# mIR continuous
-mir = imbaqu.mean_imbalance_ratio(data['num1'])
-print(f'mIR of a continuous variable: {mir:.2f}')
-
-# mIR discrete
-mir = imbaqu.mean_imbalance_ratio(data['cat1'], discrete=True)
-print(f'mIR of a discrete variable: {mir:.2f}')
-```
-For further explanation see the [example notebook](example.ipynb).
+For explanation see the [example notebook](example.ipynb).
