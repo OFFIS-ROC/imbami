@@ -7,6 +7,14 @@ class crbSMOGN(BaseMitigationMethod):
                 data: pd.DataFrame,
                 target_column: str,
                 relevance_values: pd.Series):
+        '''
+        data : pd.Dataframe
+            Dataframe containing the data to be sampled.
+        target_column : str
+            Name of the target variable.
+        relevance_values : pd.Series
+            Series containing the respective relevance values to the samples/rows in data.
+        '''
         super().__init__(data, target_column, relevance_values)
         
     def run_sampling(self,

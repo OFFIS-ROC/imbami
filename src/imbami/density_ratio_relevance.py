@@ -7,7 +7,12 @@ class DensityRatioRelevance(BaseRelevanceFunction):
     """
     Relevance function based on density ratios (empirical / relevance).
     """
-
+    def __init__(self):
+        """
+        Initializes DensityRatioRelevance.
+        Inherits from BaseRelevanceFunction. No arguments are required.
+        """
+        super().__init__()
     def fit(self,
             emp_data: np.ndarray, 
             rel_data: np.ndarray | None,

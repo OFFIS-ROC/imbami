@@ -5,7 +5,12 @@ class DensityDistanceRelevance(BaseRelevanceFunction):
     """
     Relevance function based on the difference (distance) of empirical and relevance KDEs.
     """
-
+    def __init__(self):
+        """
+        Initializes DensityRatioRelevance.
+        Inherits from BaseRelevanceFunction. No arguments are required.
+        """
+        super().__init__()
     def fit(self,
             emp_data: np.ndarray, 
             rel_data: np.ndarray | None,

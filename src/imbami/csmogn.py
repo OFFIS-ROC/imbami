@@ -7,6 +7,14 @@ class cSMOGN(BaseMitigationMethod):
                 data: pd.DataFrame,
                 target_column: str,
                 relevance_values: pd.Series):
+        '''
+        data : pd.Dataframe
+            Dataframe containing the data to be sampled.
+        target_column : str
+            Name of the target variable.
+        relevance_values : pd.Series
+            Series containing the respective relevance values to the samples/rows in data.
+        '''
         super().__init__(data, target_column, relevance_values)
         if not ((relevance_values >= 0) & (relevance_values <= 1)).all():
             out_of_bounds = relevance_values[(relevance_values < 0) | (relevance_values > 1)]
